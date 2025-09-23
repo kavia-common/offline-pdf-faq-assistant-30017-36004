@@ -9,6 +9,8 @@ Theme: Ocean Professional — blue primary (#2563EB) and amber secondary (#F59E0
 - Local embeddings via sentence-transformers
 - Persistent vector index on disk
 - Chat endpoint that retrieves top passages and synthesizes concise answers
+  - Heuristic local summary by default (offline)
+  - Optional: If OPENAI_API_KEY is set, uses OpenAI to produce a more natural answer
 - Well-documented OpenAPI schema at /docs
 
 ## Tech Stack
